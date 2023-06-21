@@ -5,8 +5,8 @@ import java.util.Arrays;
 /**
  * Tic Tac Toe board and game logic
  *
- * @author Diogo Pina Manique
- * @version 13/03/2021
+ * @author Pedro Tauzen
+ * @version 21/06/2023
  */
 public class TicTacToeGame {
 
@@ -122,7 +122,7 @@ public class TicTacToeGame {
      * @param mark     The Place representing the player
      * @param position The target Position
      */
-    private void setMark(Mark mark, Position position) {
+    public void setMark(Mark mark, Position position) {
         board[position.row()][position.col()] = mark;
         notifyPlaceChanged(position, mark);
         notifyBoardChanged(getBoardCopy());
@@ -297,5 +297,19 @@ public class TicTacToeGame {
      */
     private void notifyGameWinner(Player player) {
         if (view != null) view.onGameWon(player);
+    }
+
+    public void initializeBoard(int size) {
+        board = new Mark[size][size];
+        for (int row = 0; row < size; row++) {
+            for (int col = 0; col < size; col++) {
+                board[row][col] = Mark.EMPTY;
+            }
+        }
+    }
+
+    public void setBoard(Mark[][] board) {
+        this.board = board;
+        notifyBoardChanged(board);
     }
 }

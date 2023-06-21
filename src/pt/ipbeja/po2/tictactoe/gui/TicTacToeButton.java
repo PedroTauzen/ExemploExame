@@ -6,8 +6,8 @@ import javafx.scene.image.ImageView;
 import pt.ipbeja.po2.tictactoe.model.Mark;
 
 /**
- * @author Diogo Pina Manique
- * @version 12/03/2021
+ * @author Pedro Tauzen
+ * @version 21/06/2023
  */
 
 public class TicTacToeButton extends Button {

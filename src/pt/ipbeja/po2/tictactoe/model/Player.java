@@ -1,5 +1,10 @@
 package pt.ipbeja.po2.tictactoe.model;
 
+/**
+ * @author Pedro Tauzen
+ * @version 21/06/2023
+ */
+
 public enum Player {
     // this Player enum has two possible values: X and O
     // In this game we have one PLayer X and one Player O

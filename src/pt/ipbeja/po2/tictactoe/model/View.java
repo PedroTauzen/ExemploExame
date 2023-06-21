@@ -3,8 +3,8 @@ package pt.ipbeja.po2.tictactoe.model;
 import java.util.List;
 
 /**
- * @author Diogo Pina Manique
- * @version 13/03/2021
+ * @author Pedro Tauzen
+ * @version 21/06/2023
  */
 public interface View {
 

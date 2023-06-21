@@ -7,8 +7,8 @@ import pt.ipbeja.po2.tictactoe.model.TicTacToeGame;
 
 /**
  * Start GUI version
- * @author Diogo Pina Manique
- * @version 12/03/2021
+ * @author Pedro Tauzen
+ * @version 21/06/2023
  */
 
 public class TicTacToeStart extends Application {

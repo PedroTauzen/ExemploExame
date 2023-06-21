@@ -10,9 +10,8 @@ import pt.ipbeja.po2.tictactoe.model.*;
 import java.util.List;
 
 /**
- * @author Diogo Pina Manique
- * @author João Paulo Barros
- * @version 12/03/2021, 26/03/2022
+ * @author Pedro Tauzen
+ * @version 21/06/2023
  */
 
 public class TicTacToeBoard extends GridPane implements View {
